@@ -87,7 +87,7 @@ export default function HomePage( props) {
       <main className=" bg-white px-10 dark:bg-gray-900 md:px-20 lg:px-40">
         <section className="">
           <nav className="py-10 mb-0 flex justify-between dark:text-white">
-            <h1 className="text-xl">Kaz Tahara-Edmonds</h1>
+            <h1 className="text-xl navbutton">Kaz Tahara-Edmonds</h1>
             <ul className="flex items-center">
               <li>
                 <BsFillMoonStarsFill

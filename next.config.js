@@ -1,6 +1,10 @@
+const isProd = process.env.NODE_ENV === 'production';
+
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
+  assetPrefix: isProd ? '/<imkazte>' : '',
+  basePath: isProd ? '/<imkazte>' : '',
   webpack: (config) => {
     config.module.rules.push(
       {
@@ -9,7 +13,7 @@ const nextConfig = {
           {
             loader: 'file-loader',
             options: {
-              publicPath: '/imkazte/_next/static/videos',
+              publicPath: `${isProd ? '/<imkazte>' : ''}/_next/static/videos`,
               outputPath: 'static/videos',
               name: '[name].[hash].[ext]',
               esModule: false,
@@ -23,8 +27,8 @@ const nextConfig = {
           {
             loader: 'file-loader',
             options: {
-              publicPath: '/imkazte/_next/static/files',
-              outputPath: 'static/files/',
+              publicPath: `${isProd ? '/<imkazte>' : ''}/_next/static/files`,
+              outputPath: 'static/files',
               name: '[name].[ext]',
               esModule: false,
             },
