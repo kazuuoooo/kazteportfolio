@@ -1,4 +1,3 @@
-const path = require('path');
 
 const isProd = process.env.NODE_ENV === 'production';
 
@@ -15,8 +14,8 @@ const nextConfig = {
             options: {
               publicPath: isProd
                 ? '/imkazte/_next/static/videos/'
-                : '/static/videos/',
-              outputPath: path.join(__dirname, 'public', 'static', 'videos'),
+                : '/_next/static/videos/',
+              outputPath: 'static/videos',
               name: '[name].[hash].[ext]',
               esModule: false,
             },
@@ -31,8 +30,8 @@ const nextConfig = {
             options: {
               publicPath: isProd
                 ? '/imkazte/_next/static/files/'
-                : '/static/files/',
-              outputPath: path.join(__dirname, 'public', 'static', 'files'),
+                : '/_next/static/files/',
+              outputPath: 'static/files',
               name: '[name].[ext]',
               esModule: false,
             },
