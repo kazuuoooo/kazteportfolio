@@ -8,11 +8,11 @@ import { BsFillMoonStarsFill } from "react-icons/bs";
 import { useState } from "react";
 import deved from "../public/profilepic.png";
 import Image from "next/image";
-import web1 from "../public/fableland/web1.png";
-import web2 from "../public/fableland/web2.png";
-import web3 from "../public/fableland/web3.png";
-import web4 from "../public/fableland/web4.png";
-import web5 from "../public/fableland/web5.mp4";
+import web1 from "../public/fableland/web1.jpg";
+import web2 from "../public/fableland/web2.jpg";
+import web3 from "../public/fableland/web3.jpg";
+import web4 from "../public/fableland/web4.jpg";
+import web5 from "../public/fableland/web5.jpg";
 import resume from "../public/kaztaharaedmondsresume.pdf";
 
 

@@ -1,3 +1,5 @@
+const isProd = process.env.NODE_ENV === 'production';
+
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
@@ -9,7 +11,7 @@ const nextConfig = {
           {
             loader: 'file-loader',
             options: {
-              publicPath: '/imkazte/_next/static/videos',
+              publicPath: isProd ? '/my-repo/_next/static/videos/' : '/_next/static/videos/',
               outputPath: 'static/videos',
               name: '[name].[hash].[ext]',
               esModule: false,
@@ -23,7 +25,7 @@ const nextConfig = {
           {
             loader: 'file-loader',
             options: {
-              publicPath: '/imkazte/_next/static/files',
+              publicPath: isProd ? '/my-repo/_next/static/files/' : '/_next/static/files/',
               outputPath: 'static/files/',
               name: '[name].[ext]',
               esModule: false,
@@ -32,12 +34,9 @@ const nextConfig = {
         ],
       }
     );
-
-
-    
-
     return config;
   },
 };
 
-module.exports = nextConfig;
+
+
