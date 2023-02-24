@@ -4,15 +4,14 @@ import {
   AiFillLinkedin,
   AiFillYoutube,
 } from "react-icons/ai";
+
 import { BsFillMoonStarsFill } from "react-icons/bs";
 import { useState } from "react";
-import deved from "../public/profilepic.png";
+import deved from "../public/fableland/web0.jpg";
 import Image from "next/image";
-import web1 from "../public/fableland/web1.jpg";
+import web1 from "../public/fableland/web1.mp4";
 import web2 from "../public/fableland/web2.jpg";
 import web3 from "../public/fableland/web3.jpg";
-import web4 from "../public/fableland/web4.jpg";
-import web5 from "../public/web5.mp4";
 import resume from "../public/kaztaharaedmondsresume.pdf";
 
 
@@ -24,22 +23,12 @@ export default function FableLand( props ) {
 
 
 
-  const images1 = [
-    { src: web1 },
-    { src: web2 }
-  ];
-
-  const images2 = [
-    { src: web3 },
-    { src: web4 }
-  ];
 
   
 
-  const renderImages = (imageList) => {
-    return imageList.map((image, index) => {
+  const renderImage = (image) => {
       return (
-        <div key={index} className="basis-1/3 flex-1 ">
+        <div className="basis-1/3 flex-1 ">
           <div className="image-container">
             <Image
               className="rounded-lg object-cover"
@@ -51,7 +40,7 @@ export default function FableLand( props ) {
           </div>
         </div>
       );
-    });
+    
   }
 
 
@@ -65,7 +54,7 @@ export default function FableLand( props ) {
       <main className=" bg-white px-10 dark:bg-gray-900 md:px-20 lg:px-40">
         <section className="">
           <nav className="py-10 mb-0 flex justify-between dark:text-white">
-            <button className="text-xl" onClick={() => props.setPage('home')}>Home</button>
+            <button className="text-xl navbutton" onClick={() => props.setPage('home')}>Home</button>
             <ul className="flex items-center">
               <li>
                 <BsFillMoonStarsFill
@@ -109,23 +98,73 @@ export default function FableLand( props ) {
         </section>
         <section className="">
           <div>
-            <h3 className="text-3xl py-1 dark:text-white ">Portfolio</h3>
+            <h3 className="text-3xl py-1 dark:text-white ">FABLELAND</h3>
           </div>
           <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
-            {renderImages(images1)}
+
+            <p className="text-md py-5 leading-8 text-gray-800 dark:text-gray-200 max-w-xl md:text-xl">
+                  Welcome to my portfolio! I started making games 
+                  at the age of 12 and have been passionate about <span className="text-teal-500"> bringing the worlds
+                  of my imagination to reality </span> ever since. All programming and art was 
+                  done entirely by me. Thank you for visiting, and I hope you enjoy 
+                  exploring 
+                  my games as much as I enjoyed creating them.
+            </p>
+      
             <div className="basis-1/3 flex-1 ">
               <div className="image-container">
                 <video
+                    className="rounded-lg my-video"
                     autoPlay
-                    src={web5}
+                    src={web1}
                     muted
                     loop
                 />
               </div>
-            </div>            
+            </div>     
+
+            {renderImage(web3)}
+
+            <p className="text-md py-5 leading-8 text-gray-800 dark:text-gray-200 max-w-xl md:text-xl">
+                Welcome to my portfolio! I started making games 
+                at the age of 12 and have been passionate about <span className="text-teal-500"> bringing the worlds
+                of my imagination to reality </span> ever since. All programming and art was 
+                done entirely by me. Thank you for visiting, and I hope you enjoy 
+                exploring 
+                my games as much as I enjoyed creating them.
+            </p>       
+
+
+            <p className="text-md py-5 leading-8 text-gray-800 dark:text-gray-200 max-w-xl md:text-xl">
+                Welcome to my portfolio! I started making games 
+                at the age of 12 and have been passionate about <span className="text-teal-500"> bringing the worlds
+                of my imagination to reality </span> ever since. All programming and art was 
+                done entirely by me. Thank you for visiting, and I hope you enjoy 
+                exploring 
+                my games as much as I enjoyed creating them.
+            </p>     
+
+
+          {renderImage(web2)} 
+
+
+          
+          <div className="basis-1/3 flex-1 ">
+          <h3 className="text-3xl py-1 dark:text-white ">Gameplay</h3>
+              <div className="image-container">
+                <video
+                    className="rounded-lg"
+                    src={web1}
+                    muted
+                    controls
+                />
+              </div>
+          </div>  
+
+
           </div>
           <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
-            {renderImages(images2)} 
+            
           </div>
            
         </section>
