@@ -12,7 +12,7 @@ import web1 from "../public/fableland/web1.jpg";
 import web2 from "../public/fableland/web2.jpg";
 import web3 from "../public/fableland/web3.jpg";
 import web4 from "../public/fableland/web4.jpg";
-import web5 from "../public/fableland/web5.jpg";
+import web5 from "../public/web5.mp4";
 import resume from "../public/kaztaharaedmondsresume.pdf";
 
 
@@ -118,6 +118,8 @@ export default function FableLand( props ) {
                 <video
                     autoPlay
                     src={web5}
+                    muted
+                    loop
                 />
               </div>
             </div>            
