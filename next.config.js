@@ -13,7 +13,7 @@ const nextConfig = {
           {
             loader: 'file-loader',
             options: {
-              publicPath: `${isProd ? '/<imkazte>' : ''}/_next/static/videos`,
+              publicPath: `${isProd ? 'imkazte' : ''}/_next/static/videos`,
               outputPath: 'static/videos',
               name: '[name].[hash].[ext]',
               esModule: false,
@@ -27,7 +27,7 @@ const nextConfig = {
           {
             loader: 'file-loader',
             options: {
-              publicPath: `${isProd ? '/<imkazte>' : ''}/_next/static/files`,
+              publicPath: `${isProd ? 'imkazte' : ''}/_next/static/files`,
               outputPath: 'static/files',
               name: '[name].[ext]',
               esModule: false,
