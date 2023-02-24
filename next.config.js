@@ -11,7 +11,7 @@ const nextConfig = {
           {
             loader: 'file-loader',
             options: {
-              publicPath: '/_next/static/videos',
+              publicPath: '/imkazte/_next/static/videos',
               outputPath: 'static/videos',
               name: '[name].[hash].[ext]',
               esModule: false,
@@ -25,7 +25,7 @@ const nextConfig = {
           {
             loader: 'file-loader',
             options: {
-              publicPath: '/_next/static/files',
+              publicPath: '/imkazte/_next/static/files',
               outputPath: 'static/files',
               name: '[name].[ext]',
               esModule: false,
