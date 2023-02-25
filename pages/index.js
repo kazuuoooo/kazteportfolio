@@ -5,6 +5,11 @@ import FableLand from './FableLand';
 import resume from "../public/kaztaharaedmondsresume.pdf";
 import { BsFillMoonStarsFill } from "react-icons/bs";
 import { useState } from "react";
+import DeadMeat from './DeadMeat';
+import FishermansWharf from './FishermansWharf';
+import FpsFun from './FPSFun';
+import MasterOfCastles from './MasterOfCastles';
+import AnimalRoll from './AnimalRoll';
 
 function App() {
   const [page, setPage] = React.useState('home');
@@ -25,15 +30,15 @@ function App() {
       case 'FABLELAND':
         return <FableLand setPage={handlePageChange}/>;
       case 'DEADMEAT':
-        return <FableLand setPage={handlePageChange}/>;
+        return <DeadMeat setPage={handlePageChange}/>;
       case 'FISHERMAN':
-        return <FableLand setPage={handlePageChange}/>;
+        return <FishermansWharf setPage={handlePageChange}/>;
       case 'FPSFUN':
-        return <FableLand setPage={handlePageChange} />;
+        return <FpsFun setPage={handlePageChange} />;
       case 'MASTEROFCASTLES':
-        return <FableLand setPage={handlePageChange} />;
+        return <MasterOfCastles setPage={handlePageChange} />;
       case 'ANIMALROLL':
-        return <FableLand setPage={handlePageChange} />;
+        return <AnimalRoll setPage={handlePageChange} />;
       default:
         return <HomePage setPage={handlePageChange} />;
     }
@@ -47,7 +52,7 @@ function App() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <header className="navheader fixed top-0 left-0 right-0 z-10 bg-gray-300 dark:bg-gray-900 px-10 md:px-20 lg:px-40" 
-        style={{backgroundColor: darkMode ? 'rgb(20,20,30)' : 'rgb(150,150,150)'}}>
+        style={{backgroundColor: darkMode ? 'rgb(20,20,30)' : 'rgb(230,230,230)'}}>
         <nav className="py-10 mb-0 flex justify-between dark:text-white">
           <button className="text-xl navbutton" onClick={() => setPage('home')}>Home</button>
           <ul className="flex items-center">
