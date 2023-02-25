@@ -32,7 +32,6 @@ export default function FableLand(props) {
 
   return (
     <div className={props.darkMode ? "dark" : ""}>
-      <main className=" bg-white dark:bg-gray-900">
         <section className="">
           <div className="flex flex-wrap">
             <div className="w-full md:w-1/3 p-25n py-10 md:py-0">
@@ -144,7 +143,6 @@ export default function FableLand(props) {
           </div>
            
         </section>
-      </main>
     </div>
   );
 }
