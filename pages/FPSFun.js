@@ -41,18 +41,10 @@ export default function FpsFun(props) {
               FPS Fun
             </h2>
             <h3 className="text-2xl py-2 dark:text-white md:text-3xl">
-              2D RPG Pixel Art Adventure
+              FPS Game with Active Ragdoll Physics
             </h3>
             <p className="text-md py-5 leading-8 text-gray-800 dark:text-gray-200 max-w-xl md:text-xl">
-              Welcome to my portfolio! I started making games at the age of 12
-              and have been passionate about{" "}
-              <span className="text-teal-500">
-                {" "}
-                bringing the worlds of my imagination to reality{" "}
-              </span>{" "}
-              ever since. All programming and art was done entirely by me. Thank
-              you for visiting, and I hope you enjoy exploring my games as much
-              as I enjoyed creating them.
+            FPS Fun is an action-packed first-person shooter game that lets players experiment with a variety of FPS mechanics while causing chaos and destruction. Featuring active ragdoll enemies that react realistically to player actions, players can explore destructible environments and face unique challenges across multiple levels. With the added element of parkour, players can run, jump, and climb their way through levels with ease, making for fast-paced and exhilarating gameplay. Overall, FPS Fun is a thrilling game that offers hours of entertaining gameplay.
             </p>
           </div>
         </div>
@@ -66,15 +58,7 @@ export default function FpsFun(props) {
             </span>
             <br></br>
             <br></br>
-            Welcome to my portfolio! I started making games at the age of 12 and
-            have been passionate about{" "}
-            <span className="text-teal-500">
-              {" "}
-              bringing the worlds of my imagination to reality{" "}
-            </span>{" "}
-            ever since. All programming and art was done entirely by me. Thank
-            you for visiting, and I hope you enjoy exploring my games as much as
-            I enjoyed creating them.
+            As a game developer, I was inspired by the Max Payne video game series for its gritty storytelling and innovative mechanics like bullet time. I was also drawn to the use of low-poly graphics, which can provide a unique and stylized look to games while allowing for smoother gameplay. Combining these two elements, I created FPS Fun, a game that offers a thrilling and action-packed experience for players. I wanted to create a game that captures the essence of the FPS genre while also offering new and exciting elements like parkour mechanics and active ragdoll enemies. Overall, FPS Fun is a game that I'm proud to have developed and I hope that players will enjoy playing it as much as I enjoyed creating it.
           </p>
           <div className="basis-1/3 flex-1 ">
             <div className="image-container">
@@ -97,15 +81,7 @@ export default function FpsFun(props) {
             </span>
             <br></br>
             <br></br>
-            Welcome to my portfolio! I started making games at the age of 12 and
-            have been passionate about{" "}
-            <span className="text-teal-500">
-              {" "}
-              bringing the worlds of my imagination to reality{" "}
-            </span>{" "}
-            ever since. All programming and art was done entirely by me. Thank
-            you for visiting, and I hope you enjoy exploring my games as much as
-            I enjoyed creating them.
+            One of the biggest challenges I faced while developing FPS Fun was implementing the active ragdoll physics system for the enemies. It took a lot of trial and error to get the physics to behave realistically while also being responsive to player actions. I had to balance the physics calculations with the game's performance, as having too many active ragdoll enemies at once could slow down the game. Through careful optimization of the physics system, I was able to achieve the right balance between realism and performance. Despite the difficulties, implementing the active ragdoll physics system was ultimately worth it, as it adds a level of immersion to the game and makes for more dynamic and entertaining gameplay.
           </p>
 
           <ul className="list-disc text-md py-5 leading-8 text-gray-800 dark:text-gray-200 max-w-xl md:text-xl">

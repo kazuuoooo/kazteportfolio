@@ -44,15 +44,7 @@ export default function FableLand(props) {
               2D RPG Pixel Art Adventure
             </h3>
             <p className="text-md py-5 leading-8 text-gray-800 dark:text-gray-200 max-w-xl md:text-xl">
-              Welcome to my portfolio! I started making games at the age of 12
-              and have been passionate about{" "}
-              <span className="text-teal-500">
-                {" "}
-                bringing the worlds of my imagination to reality{" "}
-              </span>{" "}
-              ever since. All programming and art was done entirely by me. Thank
-              you for visiting, and I hope you enjoy exploring my games as much
-              as I enjoyed creating them.
+            Fableland is a pixel art platformer RPG that takes players on a journey through a magical world filled with danger and adventure. With a focus on enemy AI and 2D lighting effects, the game offers a unique gameplay experience that blends classic 2D platforming with modern game development techniques. Players must explore the world of Fableland, battle enemies, and uncover the secrets of this mysterious land.
             </p>
           </div>
         </div>
@@ -66,15 +58,7 @@ export default function FableLand(props) {
             </span>
             <br></br>
             <br></br>
-            Welcome to my portfolio! I started making games at the age of 12 and
-            have been passionate about{" "}
-            <span className="text-teal-500">
-              {" "}
-              bringing the worlds of my imagination to reality{" "}
-            </span>{" "}
-            ever since. All programming and art was done entirely by me. Thank
-            you for visiting, and I hope you enjoy exploring my games as much as
-            I enjoyed creating them.
+            Fableland was inspired by a combination of my love for classic 2D platformers and my desire to experiment with advanced game development techniques. As a lifelong fan of platforming games like Super Mario Bros. and Castlevania, I wanted to create a game that would capture the spirit of those classic titles while also adding modern elements. At the same time, I was eager to explore new techniques like 2D lighting and enemy AI to create a truly unique gameplay experience.
           </p>
           <div className="basis-1/3 flex-1 ">
             <div className="image-container">
@@ -97,15 +81,7 @@ export default function FableLand(props) {
             </span>
             <br></br>
             <br></br>
-            Welcome to my portfolio! I started making games at the age of 12 and
-            have been passionate about{" "}
-            <span className="text-teal-500">
-              {" "}
-              bringing the worlds of my imagination to reality{" "}
-            </span>{" "}
-            ever since. All programming and art was done entirely by me. Thank
-            you for visiting, and I hope you enjoy exploring my games as much as
-            I enjoyed creating them.
+            One of the biggest challenges I faced while creating Fableland was implementing AI pathfinding for platformer-style jumps. This was particularly difficult because platforming games require a level of precision and accuracy that can be hard to achieve with traditional pathfinding algorithms. To overcome this challenge, I used a combination of A* pathfinding and custom movement calculations to ensure enemies could navigate the environment accurately. By fine-tuning these systems and testing them extensively, I was able to create enemies that could navigate the world of Fableland with ease, making for a more challenging and rewarding gameplay experience.
           </p>
 
           <ul className="list-disc text-md py-5 leading-8 text-gray-800 dark:text-gray-200 max-w-xl md:text-xl">
@@ -114,13 +90,12 @@ export default function FableLand(props) {
             </span>
             <br></br>
             <br></br>
-            <li>
-              Welcome to my portfolio! I started making games Welcome to my
-              portfolio! I started making games Welcome to my portfolio! I
-              started making games
-            </li>
-            <li>Welcome to my portfolio! I started making games </li>
-            <li>Welcome to my portfolio! I started making games </li>
+              <li>Proficient in C# programming language for game development</li>
+              <li>Knowledgeable in implementing algorithms such as A* for pathfinding and collision detection</li>
+              <li>Skilled in character programming, including movement, animation, and combat</li>
+              <li>Experienced in programming enemy AI with behaviors such as attacking, dodging, and retreating</li>
+              <li>Capable of designing engaging levels that offer a variety of gameplay experiences</li>
+              <li>Proficient in creating pixel art graphics for characters, backgrounds, and UI elements</li>
           </ul>
           {renderImage(web3)}
 
