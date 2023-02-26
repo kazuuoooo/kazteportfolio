@@ -41,10 +41,18 @@ export default function AnimalRoll(props) {
               Animal Roll
             </h2>
             <h3 className="text-2xl py-2 dark:text-white md:text-3xl">
-              2D RPG Pixel Art Adventure
+              Isometric Mobile Arcade Game
             </h3>
             <p className="text-md py-5 leading-8 text-gray-800 dark:text-gray-200 max-w-xl md:text-xl">
-            Fableland is a pixel art platformer RPG that takes players on a journey through a magical world filled with danger and adventure. With a focus on enemy AI and 2D lighting effects, the game offers a unique gameplay experience that blends classic 2D platforming with modern game development techniques. Players must explore the world of Fableland, battle enemies, and uncover the secrets of this mysterious land.
+              Welcome to my portfolio! I started making games at the age of 12
+              and have been passionate about{" "}
+              <span className="text-teal-500">
+                {" "}
+                bringing the worlds of my imagination to reality{" "}
+              </span>{" "}
+              ever since. All programming and art was done entirely by me. Thank
+              you for visiting, and I hope you enjoy exploring my games as much
+              as I enjoyed creating them.
             </p>
           </div>
         </div>
