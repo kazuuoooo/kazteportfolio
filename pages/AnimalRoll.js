@@ -44,15 +44,7 @@ export default function AnimalRoll(props) {
               Isometric Mobile Arcade Game
             </h3>
             <p className="text-md py-5 leading-8 text-gray-800 dark:text-gray-200 max-w-xl md:text-xl">
-              Welcome to my portfolio! I started making games at the age of 12
-              and have been passionate about{" "}
-              <span className="text-teal-500">
-                {" "}
-                bringing the worlds of my imagination to reality{" "}
-              </span>{" "}
-              ever since. All programming and art was done entirely by me. Thank
-              you for visiting, and I hope you enjoy exploring my games as much
-              as I enjoyed creating them.
+            Animal Roll is a thrilling mobile arcade game that I developed. The game is fast-paced and endless, challenging players to keep rolling and avoid obstacles for as long as possible. The objective of the game is to control an animal character as it rolls through a vibrant world filled with obstacles and power-ups. The game features intuitive touch controls that allow players to quickly and easily guide their animal through the terrain. 
             </p>
           </div>
         </div>
@@ -66,15 +58,7 @@ export default function AnimalRoll(props) {
             </span>
             <br></br>
             <br></br>
-            Welcome to my portfolio! I started making games at the age of 12 and
-            have been passionate about{" "}
-            <span className="text-teal-500">
-              {" "}
-              bringing the worlds of my imagination to reality{" "}
-            </span>{" "}
-            ever since. All programming and art was done entirely by me. Thank
-            you for visiting, and I hope you enjoy exploring my games as much as
-            I enjoyed creating them.
+            I've always been inspired by the simple yet addictive gameplay of Ketchapp games. Their minimalist designs and intuitive controls have been a constant source of inspiration for me, and it's what led me to create Animal Roll. With its fast-paced and endless gameplay, Animal Roll draws inspiration from Ketchapp's successful formula while adding its own unique twist. Just like Ketchapp's games, Animal Roll is easy to pick up and play, but difficult to put down. Its vibrant graphics and addictive gameplay make it a game that players will keep coming back to, just like they do with Ketchapp's games.
           </p>
           <div className="basis-1/3 flex-1 ">
             <div className="image-container">
@@ -97,15 +81,7 @@ export default function AnimalRoll(props) {
             </span>
             <br></br>
             <br></br>
-            Welcome to my portfolio! I started making games at the age of 12 and
-            have been passionate about{" "}
-            <span className="text-teal-500">
-              {" "}
-              bringing the worlds of my imagination to reality{" "}
-            </span>{" "}
-            ever since. All programming and art was done entirely by me. Thank
-            you for visiting, and I hope you enjoy exploring my games as much as
-            I enjoyed creating them.
+            One challenge I faced when creating the mobile controls for Animal Roll was finding the right balance between simplicity and functionality. To make the controls easy to understand and use, I opted for a one-touch control system with a swipe mechanic for more depth. I tested the game extensively and added visual and audio feedback to make the controls intuitive and engaging. The end result was a responsive and fun control system that allowed players to fully immerse themselves in the game and enjoy the fast-paced action of Animal Roll.
           </p>
 
           <ul className="list-disc text-md py-5 leading-8 text-gray-800 dark:text-gray-200 max-w-xl md:text-xl">
@@ -114,13 +90,11 @@ export default function AnimalRoll(props) {
             </span>
             <br></br>
             <br></br>
-            <li>
-              Welcome to my portfolio! I started making games Welcome to my
-              portfolio! I started making games Welcome to my portfolio! I
-              started making games
-            </li>
-            <li>Welcome to my portfolio! I started making games </li>
-            <li>Welcome to my portfolio! I started making games </li>
+            <li>Expertise in Isometric Game Development, with knowledge of isometric game design principles and mechanics, including camera movement, tile-based systems, and perspective illusions.</li>
+            <li>Experience with Mobile Game Development, with a focus on mobile user experience and optimization techniques, such as performance optimization, touch input, and screen resolutions to create a smooth and engaging mobile game experience.</li>
+            <li>Familiarity with Unity Editor, with the ability to use Unity editor's interface and tools to prototype, test, and iterate on game mechanics, user experience, and controls.</li>
+            <li>User Experience Design, with a focus on creating engaging, easy-to-understand, and intuitive interfaces and gameplay mechanics that keep players coming back for more.</li>
+            <li>Creative Problem-Solving Skills, with a passion for problem-solving and creative thinking to overcome technical challenges and find innovative solutions that enhance gameplay, controls, and user experience.</li>
           </ul>
           {renderImage(web3)}
 

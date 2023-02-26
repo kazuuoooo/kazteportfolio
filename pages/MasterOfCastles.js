@@ -41,18 +41,10 @@ export default function MasterOfCastles(props) {
               Master Of Castles
             </h2>
             <h3 className="text-2xl py-2 dark:text-white md:text-3xl">
-              2D RPG Pixel Art Adventure
+              3D Third-Person Epic Battle Simulator
             </h3>
             <p className="text-md py-5 leading-8 text-gray-800 dark:text-gray-200 max-w-xl md:text-xl">
-              Welcome to my portfolio! I started making games at the age of 12
-              and have been passionate about{" "}
-              <span className="text-teal-500">
-                {" "}
-                bringing the worlds of my imagination to reality{" "}
-              </span>{" "}
-              ever since. All programming and art was done entirely by me. Thank
-              you for visiting, and I hope you enjoy exploring my games as much
-              as I enjoyed creating them.
+            This is a 3D third-person action-adventure RPG that focuses on massive epic battles. Players will fight challenging enemies and lead their army into sweeping clashes of swords and strategy. The game boasts an engaging combat system that emphasizes large-scale battles, making it a thrilling adventure for fans of epic fantasy. Get ready to become a hero of legend!
             </p>
           </div>
         </div>
@@ -66,15 +58,7 @@ export default function MasterOfCastles(props) {
             </span>
             <br></br>
             <br></br>
-            Welcome to my portfolio! I started making games at the age of 12 and
-            have been passionate about{" "}
-            <span className="text-teal-500">
-              {" "}
-              bringing the worlds of my imagination to reality{" "}
-            </span>{" "}
-            ever since. All programming and art was done entirely by me. Thank
-            you for visiting, and I hope you enjoy exploring my games as much as
-            I enjoyed creating them.
+            Inspired by my love for big battle simulator games, this 3D third-person action-adventure RPG lets players lead their own army into epic battles, offering a unique and unforgettable experience that emphasizes strategic thinking and skillful execution. As a solo developer, I wanted to create a game that would put players right in the middle of the action, allowing them to experience the rush of commanding troops firsthand.
           </p>
           <div className="basis-1/3 flex-1 ">
             <div className="image-container">
@@ -97,15 +81,11 @@ export default function MasterOfCastles(props) {
             </span>
             <br></br>
             <br></br>
-            Welcome to my portfolio! I started making games at the age of 12 and
-            have been passionate about{" "}
-            <span className="text-teal-500">
-              {" "}
-              bringing the worlds of my imagination to reality{" "}
-            </span>{" "}
-            ever since. All programming and art was done entirely by me. Thank
-            you for visiting, and I hope you enjoy exploring my games as much as
-            I enjoyed creating them.
+One of the key challenges in developing this game was the need to have a large number of enemies on the screen at once without sacrificing performance. To overcome this challenge, I implemented a Level of Detail (LOD) system, which adjusts the level of detail of each enemy based on their distance from the player. This allowed the game to maintain a high level of detail for enemies in close proximity, while reducing the detail for enemies that are farther away, resulting in improved performance.
+
+Another solution was to use faster algorithms and optimize the AI to reduce the processing load. By using efficient data structures and algorithms, the game is able to process a large number of enemies at once without sacrificing performance. The AI was also optimized to run fewer calculations, allowing the game to run smoothly even during intense battles with multiple enemies.
+
+In addition, I made sure to balance the number of enemies on screen with the capabilities of the player character. This allowed for challenging battles while also ensuring that the game remained playable and enjoyable.
           </p>
 
           <ul className="list-disc text-md py-5 leading-8 text-gray-800 dark:text-gray-200 max-w-xl md:text-xl">
@@ -114,13 +94,12 @@ export default function MasterOfCastles(props) {
             </span>
             <br></br>
             <br></br>
-            <li>
-              Welcome to my portfolio! I started making games Welcome to my
-              portfolio! I started making games Welcome to my portfolio! I
-              started making games
-            </li>
-            <li>Welcome to my portfolio! I started making games </li>
-            <li>Welcome to my portfolio! I started making games </li>
+              <li>Proficiency in Unity C# Programming, with knowledge of Unity C# programming language and its features to create custom scripts, work with game objects and components, and manage assets.</li>
+              <li>Skill in AI Development, with the ability to design and optimize behavior trees, decision-making systems, and pathfinding algorithms for large scale battle simulations.</li>
+              <li>Expertise in Combat Mechanics, with knowledge of game design principles and mechanics for implementing dynamic combat systems, including ranged and melee combat, formations, and unit abilities.</li>
+              <li>Experience with Large Scale Battles, with knowledge of optimization techniques, such as level of detail (LOD) systems, occlusion culling, and other performance optimization techniques to handle large numbers of units and objects in real-time.</li>
+              <li>Familiarity with Unity Editor, with the ability to use Unity editor's interface and tools to prototype, test, and iterate on game mechanics and AI behavior.</li>
+              <li>Creative Problem-Solving Skills, with a passion for problem-solving and creative thinking to overcome technical challenges and find innovative solutions that enhance gameplay and AI systems.</li>
           </ul>
           {renderImage(web3)}
 
