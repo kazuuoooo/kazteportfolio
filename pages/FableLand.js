@@ -68,7 +68,7 @@ export default function FableLand(props) {
                 src={web1}
                 muted
                 loop
-                playsInLine
+                playsInline
               />
             </div>
           </div>
@@ -104,7 +104,7 @@ export default function FableLand(props) {
             <h3 className="text-3xl py-1 dark:text-white ">Gameplay</h3>
             <br></br>
             <div className="image-container">
-              <video className="rounded-lg" src={web1} muted controls playsInLine/>
+              <video className="rounded-lg" src={web1} muted controls playsInline/>
             </div>
           </div>
         </div>

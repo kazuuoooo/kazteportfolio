@@ -63,7 +63,7 @@ export default function HomePage(props) {
               muted
               loop
               src={image.src}
-              playsInLine
+              playsInline
             />
             <div className="overlay"></div>
             <div className="title">
