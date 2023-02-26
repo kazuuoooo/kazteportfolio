@@ -90,13 +90,11 @@ export default function FpsFun(props) {
             </span>
             <br></br>
             <br></br>
-            <li>
-              Welcome to my portfolio! I started making games Welcome to my
-              portfolio! I started making games Welcome to my portfolio! I
-              started making games
-            </li>
-            <li>Welcome to my portfolio! I started making games </li>
-            <li>Welcome to my portfolio! I started making games </li>
+            <li>Skill in AI Development, with the ability to design and implement behavior trees, decision-making systems, and pathfinding algorithms for complex AI systems.</li>
+            <li>Expertise in Physics Simulation, with knowledge of Unity's physics engine to simulate realistic interactions between game objects and create immersive game environments.</li>
+            <li>Familiarity with Unity Editor, with the ability to use Unity editor's interface and tools to prototype, test, and iterate on game mechanics and AI behavior.</li>
+            <li>Collaboration Skills, with the ability to communicate effectively and work collaboratively with artists, designers, and other developers to create cohesive and polished game experiences.</li>
+            <li>Creative Problem-Solving Skills, with a passion for problem-solving and creative thinking to overcome technical challenges and find innovative solutions that enhance gameplay and AI systems.</li>
           </ul>
           {renderImage(web3)}
 

@@ -55,6 +55,7 @@ export default function HomePage(props) {
         <div key={index} className="basis-1/3 flex-1 ">
           <div className="image-container">
             <video
+              playsInLine
               className="rounded-lg object-cover"
               width={"100%"}
               height={"75%"}
