@@ -54,8 +54,7 @@ export default function HomePage(props) {
       return (
         <div key={index} className="basis-1/3 flex-1 ">
           <div className="image-container">
-            <video
-              playsInLine
+            <video       
               className="rounded-lg object-cover"
               width={"100%"}
               height={"75%"}
@@ -64,6 +63,7 @@ export default function HomePage(props) {
               muted
               loop
               src={image.src}
+              playsInLine
             />
             <div className="overlay"></div>
             <div className="title">
@@ -79,8 +79,9 @@ export default function HomePage(props) {
   return (
     <div className={props.darkMode ? "dark" : ""}>
         <section className="">
-          <div className="flex flex-wrap">
-            <div className="w-full md:w-1/3 p-25n py-10 md:py-0">
+          <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
+
+            <div className="basis-1/3 flex-1">
               <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 relative overflow-hidden mt-2 md:h-96 md:w-96">
                 <Image src={deved} layout="fill" objectFit="cover" />
               </div>
@@ -96,7 +97,7 @@ export default function HomePage(props) {
                   className=" cursor-pointer text-2xl" />
               </div>
             </div>
-            <div className="w-full md:w-2/3 p-20 py-200">
+            <div className="basis-1/3 flex-1">
               <h2 className="text-5xl py-2 text-teal-600 font-medium dark:text-teal-400 md:text-6xl">
                 Kaz Tahara-Edmonds
               </h2>
