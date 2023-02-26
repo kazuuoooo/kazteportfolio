@@ -41,18 +41,15 @@ export default function DeadMeat(props) {
               DEAD MEAT
             </h2>
             <h3 className="text-2xl py-2 dark:text-white md:text-3xl">
-              2D RPG Pixel Art Adventure
+              Mobile FPS Zombie Survival Game
             </h3>
+
+            <h3 className="text-2xl py-2 dark:text-white md:text-3xl">
+              110,000 Users on Google Play
+            </h3>
+
             <p className="text-md py-5 leading-8 text-gray-800 dark:text-gray-200 max-w-xl md:text-xl">
-              Welcome to my portfolio! I started making games at the age of 12
-              and have been passionate about{" "}
-              <span className="text-teal-500">
-                {" "}
-                bringing the worlds of my imagination to reality{" "}
-              </span>{" "}
-              ever since. All programming and art was done entirely by me. Thank
-              you for visiting, and I hope you enjoy exploring my games as much
-              as I enjoyed creating them.
+            Dead Meat is an immersive and intense first-person shooter mobile game that features an endless zombie survival mode. This game is available on Google Play and has been enjoyed by over 110,000 users. The game boasts impressive 3D graphics that transport players to a post-apocalyptic world where they must fight to survive against hordes of undead enemies. Players can choose from a variety of weapons, including rifles, shotguns, and handguns, and must strategically use their limited resources to stay alive as long as possible.
             </p>
           </div>
         </div>
@@ -66,15 +63,7 @@ export default function DeadMeat(props) {
             </span>
             <br></br>
             <br></br>
-            Welcome to my portfolio! I started making games at the age of 12 and
-            have been passionate about{" "}
-            <span className="text-teal-500">
-              {" "}
-              bringing the worlds of my imagination to reality{" "}
-            </span>{" "}
-            ever since. All programming and art was done entirely by me. Thank
-            you for visiting, and I hope you enjoy exploring my games as much as
-            I enjoyed creating them.
+            My love for Call of Duty Zombies as a child was the main inspiration for Dead Meat. I was always drawn to the intense and strategic gameplay of fighting off waves of zombies, and I wanted to create a game that captured that same feeling of intensity and challenge. I also drew inspiration from other survival games that I had played, as I wanted to create a game that was immersive and allowed players to fully immerse themselves in the post-apocalyptic world. The result was Dead Meat, a game that combines the best of FPS and zombie survival genres into one intense and exciting experience, and I'm proud to say that it has been enjoyed by over 110,000 players.
           </p>
           <div className="basis-1/3 flex-1 ">
             <div className="image-container">
@@ -97,30 +86,21 @@ export default function DeadMeat(props) {
             </span>
             <br></br>
             <br></br>
-            Welcome to my portfolio! I started making games at the age of 12 and
-            have been passionate about{" "}
-            <span className="text-teal-500">
-              {" "}
-              bringing the worlds of my imagination to reality{" "}
-            </span>{" "}
-            ever since. All programming and art was done entirely by me. Thank
-            you for visiting, and I hope you enjoy exploring my games as much as
-            I enjoyed creating them.
+            As a solo developer of a mobile game like Dead Meat, I have had to focus on optimization and mobile-specific challenges such as touchscreen controls, limited processing power, and smaller screen sizes. This required careful attention to detail in areas such as performance optimization, user interface design, and compatibility testing. I also needed to balance gameplay mechanics and monetization while providing an enjoyable and fair experience for players. Through the use of A/B testing, I was able to gather data to fine-tune the game's difficulty, monetization strategy, and overall user experience. Despite these challenges, my commitment to creating a high-quality game has resulted in over 110,000 players enjoying Dead Meat.
           </p>
-
           <ul className="list-disc text-md py-5 leading-8 text-gray-800 dark:text-gray-200 max-w-xl md:text-xl">
             <span className="subheading text-3xl py-1 dark:text-white">
               Key Skills
             </span>
             <br></br>
             <br></br>
-            <li>
-              Welcome to my portfolio! I started making games Welcome to my
-              portfolio! I started making games Welcome to my portfolio! I
-              started making games
-            </li>
-            <li>Welcome to my portfolio! I started making games </li>
-            <li>Welcome to my portfolio! I started making games </li>
+            <li>Expertise in Unity game engine for 3D game development and optimization on mobile devices</li>
+            <li>Advanced programming skills in C# language for efficient code and bug fixing</li>
+            <li>Proficiency in Unity test framework and debugging tools for rigorous testing and bug fixing</li>
+            <li>Experience in performance profiling and optimization for smooth and fast gameplay</li>
+            <li>Experience in mobile game development, including UI/UX design and mobile-specific optimizations</li>
+            <li>Proficiency in implementing analytics tools and data-driven decision making for A/B testing and game optimization</li>
+            <li>Extensive experience in game optimization, including memory optimization and code refactoring for performance improvement</li>
           </ul>
           {renderImage(web3)}
 
