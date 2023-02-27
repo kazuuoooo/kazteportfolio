@@ -13,7 +13,7 @@ const nextConfig = {
             loader: 'file-loader',
             options: {
               publicPath: isProd
-                ? '/_next/static/videos/'
+                ? '/kazteportfolio/_next/static/videos/'
                 : '/_next/static/videos/',
               outputPath: 'static/videos',
               name: '[name].[hash].[ext]',
@@ -29,7 +29,7 @@ const nextConfig = {
             loader: 'file-loader',
             options: {
               publicPath: isProd
-                ? '/_next/static/files/'
+                ? '/kazteportfolio/_next/static/files/'
                 : '/_next/static/files/',
               outputPath: 'static/files',
               name: '[name].[ext]',
