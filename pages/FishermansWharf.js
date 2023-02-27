@@ -67,13 +67,13 @@ export default function FishermansWharf(props) {
                 src={web1}
                 muted
                 loop
+                playsInline
               />
             </div>
           </div>
 
-          {renderImage(web2)}
-
-          <p className="text-md py-5 leading-8 text-gray-800 dark:text-gray-200 max-w-xl md:text-xl">
+          <div>
+          <p className="text-md py-5 leading-8 text-gray-800 dark:text-gray-200 md:text-xl">
             <span className="subheading text-3xl py-1 dark:text-white">
               {" "}
               Challenges and Solution
@@ -83,7 +83,7 @@ export default function FishermansWharf(props) {
             One of the challenges I faced while creating this project was optimizing the scene for efficient rendering. I found that as I added more details to the environment, the scene became more complex and difficult to render. To solve this issue, I had to learn about techniques for optimizing my models and reducing the number of polygons in my scene. Additionally, I had to master the art of texture mapping to ensure that my textures were applied correctly and efficiently, which required a lot of trial and error. Through persistence and experimentation, I was able to overcome these challenges and achieve the level of detail and efficiency that I was aiming for in my final render. The experience taught me a lot about the importance of optimizing my projects and the value of persistence and experimentation in problem-solving.
           </p>
 
-          <ul className="list-disc text-md py-5 leading-8 text-gray-800 dark:text-gray-200 max-w-xl md:text-xl">
+          <ul className="list-disc text-md py-5 leading-8 text-gray-800 dark:text-gray-200  md:text-xl">
             <span className="subheading text-3xl py-1 dark:text-white">
               Key Skills
             </span>
@@ -96,9 +96,9 @@ export default function FishermansWharf(props) {
             <li>Optimization: Proficient in optimizing scenes for efficient rendering, including reducing polygon count and optimizing textures.</li>
             <li>Texturing and UV Mapping: Skilled in accurately and efficiently applying textures using UV mapping techniques for creating detailed and realistic environments.</li>
           </ul>
-          {renderImage(web3)}
-
-          <div className="basis-1/3 flex-1 ">
+          </div>
+          
+          <div className="">
             <h3 className="text-3xl py-1 dark:text-white ">Gameplay</h3>
             <br></br>
             <div className="image-container">
