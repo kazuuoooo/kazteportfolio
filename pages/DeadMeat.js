@@ -73,6 +73,7 @@ export default function DeadMeat(props) {
                 src={web1}
                 muted
                 loop
+                playsInline
               />
             </div>
           </div>

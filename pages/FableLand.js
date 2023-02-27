@@ -1,5 +1,3 @@
-import { useState } from "react";
-import Head from "next/head";
 import deved from "../public/fableland/web0.jpg";
 import Image from "next/image";
 import web1 from "../public/fableland/web1.mp4";
@@ -104,7 +102,7 @@ export default function FableLand(props) {
             <h3 className="text-3xl py-1 dark:text-white ">Gameplay</h3>
             <br></br>
             <div className="image-container">
-              <video className="rounded-lg" src={web1} muted controls playsInline/>
+              <video className="rounded-lg" src={web1} muted controls> </video> 
             </div>
           </div>
         </div>

@@ -68,6 +68,7 @@ export default function AnimalRoll(props) {
                 src={web1}
                 muted
                 loop
+                playsInline
               />
             </div>
           </div>
